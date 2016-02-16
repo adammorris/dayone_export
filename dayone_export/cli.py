@@ -4,7 +4,8 @@
 #
 # For help, run `dayone_export --help`
 
-from . import dayone_export, VERSION, compat, PlistError
+from . import dayone_export, VERSION, compat
+from .entry import PlistError
 import dateutil.parser
 import jinja2
 import argparse
